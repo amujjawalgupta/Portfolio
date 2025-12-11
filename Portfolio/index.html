@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Ujjawal Gupta — Portfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loaderWrap" class="loader-wrap" role="status" aria-hidden="false">
+    <div class="loader" aria-live="polite">
+      <div class="spinner" aria-hidden="true"></div>
+      <div class="brand">UJJAWAL GUPTA — PORTFOLIO</div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="nav-inner">
+      <div class="brand-title">
+        <div>Ujjawal Gupta</div><small>PORTFOLIO</small>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- About -->
+    <section id="about" aria-label="About">
+      <div class="about-wrapper">
+
+        <div class="about-text">
+          <h1>Hi, I'm <span>Ujjawal Gupta</span> 👋</h1>
+          <p>I build clean, accessible interfaces and enjoy solving real-world problems with code. I focus on front-end fundamentals, architecture and collaborative work.</p>
+          <p class="muted">Currently exploring modern JavaScript patterns, backend basics and open-source contributions.</p>
+
+          <div class="about-highlights" aria-hidden="false">
+            <span class="pill">Front-end Developer</span>
+            <span class="pill">JavaScript Learner</span>
+            <span class="pill">Team Player</span>
+          </div>
+        </div>
+
+        <aside class="about-card" aria-label="Profile card">
+          <div class="avatar-wrap" aria-hidden="false">
+            <div class="avatar"><img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg" alt="Profile photo of Ujjawal"></div>
+          </div>
+
+          <h3>Ujjawal</h3>
+          <small>Web Developer (In progress)</small>
+          <p>Building projects, learning consistently and practicing clean code & collaboration.</p>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" aria-label="Skills">
+      <h2 class="section-heading">Skills</h2>
+      <p class="muted">Technologies and strengths I use regularly.</p>
+
+      <div class="skills-grid" role="list">
+        <div class="skill-card" role="listitem">
+          <div class="skill-logo">&lt;/&gt;</div>
+          <div><strong>HTML5</strong><div class="muted">Semantic markup & accessibility</div></div>
+        </div>
+
+        <div class="skill-card" role="listitem">
+          <div class="skill-logo">CSS</div>
+          <div><strong>CSS3</strong><div class="muted">Responsive layout & design</div></div>
+        </div>
+
+        <div class="skill-card" role="listitem">
+          <div class="skill-logo">JS</div>
+          <div><strong>JavaScript</strong><div class="muted">DOM, events & APIs</div></div>
+        </div>
+
+        <div class="skill-card" role="listitem">
+          <div class="skill-logo">Py</div>
+          <div><strong>Python</strong><div class="muted">Scripting & backend basics</div></div>
+        </div>
+
+        <div class="skill-card" role="listitem">
+          <div class="skill-logo">Jv</div>
+          <div><strong>Java</strong><div class="muted">OOP & fundamentals</div></div>
+        </div>
+
+        <div class="skill-card" role="listitem">
+          <div class="skill-logo">LX</div>
+          <div><strong>Linux</strong><div class="muted">Shell & environment setup</div></div>
+        </div>
+
+        <div class="skill-card" role="listitem">
+          <div class="skill-logo">CN</div>
+          <div><strong>Computer Networks</strong><div class="muted">TCP/IP & routing basics</div></div>
+        </div>
+
+        <div class="skill-card" role="listitem">
+          <div class="skill-logo">TW</div>
+          <div><strong>Team Work</strong><div class="muted">Collaboration & Agile</div></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projects (Single main + Upcoming) -->
+    <section id="projects" aria-label="Projects">
+      <h2 class="section-heading">Projects</h2>
+      <p class="muted">Selected work and upcoming builds.</p>
+
+      <div class="projects-grid">
+        <article class="project-card" aria-labelledby="proj1">
+          <span class="project-tag">Web App</span>
+          <h3 id="proj1">Daily Habit Tracker</h3>
+          <p>A responsive tracker for adding, toggling and visualising daily habits. Includes simple charts to show weekly progress and uses local storage for persistence.</p>
+          <p class="muted">Built with: HTML, CSS, Vanilla JavaScript.</p>
+        </article>
+
+        <article class="project-card" aria-labelledby="proj2">
+          <span class="project-tag">Upcoming</span>
+          <h3 id="proj2">Smart Study Planner</h3>
+          <p>Planned: an intelligent planner with study sessions, reminders and analytics to help learners stay on track. Backend & auth planned.</p>
+          <p class="muted">Tech: HTML, CSS, JS (backend TBA).</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" aria-label="Contact">
+      <h2 class="section-heading">Contact</h2>
+      <p class="muted">I'd love to connect — pick a platform below.</p>
+
+      <div class="social-buttons">
+        <!-- GitHub -->
+        <a class="social-btn" href="https://www.github.com/amujjawalgupta" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.27-1.68-1.27-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.67 1.24 3.32.95.1-.74.4-1.24.72-1.53-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.28 1.18-3.08-.12-.3-.51-1.51.11-3.15 0 0 .97-.31 3.18 1.18a11.04 11.04 0 0 1 2.9-.39c.99.01 1.99.13 2.9.39 2.2-1.49 3.17-1.18 3.17-1.18.63 1.64.24 2.85.12 3.15.73.8 1.17 1.82 1.17 3.08 0 4.43-2.7 5.4-5.27 5.69.41.35.78 1.04.78 2.1 0 1.52-.01 2.75-.01 3.13 0 .31.21.66.79.55C20.71 21.39 24 17.08 24 12 24 5.65 18.35.5 12 .5z"/></svg>
+          GitHub
+        </a>
+
+        <!-- LinkedIn -->
+        <a class="social-btn" href="https://www.linkedin.com/in/ujjawal-gupta-504819381/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.5 0h4.77v2.2h.07c.66-1.25 2.27-2.57 4.68-2.57C22.6 7.63 24 10.1 24 14.43V24h-5V15.33c0-2.07-.04-4.75-2.9-4.75-2.9 0-3.34 2.26-3.34 4.6V24H7.5V8z"/></svg>
+          LinkedIn
+        </a>
+
+        <!-- Instagram -->
+        <a class="social-btn" href="https://www.instagram.com/amujjawalgupta/" target="_blank" rel="noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM18.5 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>
+          Instagram
+        </a>
+
+        
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </main>
+
+  <!-- home icon -->
+  <a class="home-icon" href="#home" title="Back to top">⌂</a>
+
+</body>
+</html>
