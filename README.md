@@ -22,7 +22,7 @@ It showcases my **skills, projects, and experience in cybersecurity & backend de
 ---
 
 ## 🌐 Live Website  
-🔗 https://amujjwalgupta.github.io/Portfolio/
+🔗 https://amujjawalgupta.github.io/Portfolio/
 
 ---
 
